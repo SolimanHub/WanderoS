@@ -9,9 +9,9 @@ El objetivo del mismo es tener un sistema especializado al desarrollo en general
 
 ## Instrucciones:
 
-git clone https://github.com/SolimanHub/WanderoS.git
-mkarchiso -v -w WanderoS/work -o WanderoS/out WanderoS/
-run_archiso -i WanderoS/out/wanderos-yyyy.mm.dd-x86_64.iso
+* git clone https://github.com/SolimanHub/WanderoS.git
+* mkarchiso -v -w WanderoS/work -o WanderoS/out WanderoS/
+* run_archiso -i WanderoS/out/wanderos-yyyy.mm.dd-x86_64.iso
 
     En caso que el ultimo comando les marque error "qemu"
     pacman -S qemu

@@ -13,7 +13,10 @@ El objetivo del mismo es tener un sistema especializado al desarrollo en general
 * mkarchiso -v -w WanderoS/work -o WanderoS/out WanderoS/
 * run_archiso -i WanderoS/out/wanderos-yyyy.mm.dd-x86_64.iso
 
-    En caso que el ultimo comando les marque error "qemu"
-    pacman -S qemu
+
+
+En caso que el ultimo comando les marque error "qemu"
+
+`pacman -S qemu`
 
 Todo el procedimiento descrito realizarlo como root

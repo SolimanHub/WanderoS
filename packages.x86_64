@@ -101,12 +101,14 @@ zsh
 xorg
 sddm
 lxde
+#gpicview
 xdg-user-dirs
 
 thunar
 file-roller
 thunar-volman
 
+#deepin
 
 #red
 networkmanager
@@ -129,7 +131,6 @@ gvfs-mtp
 #Otros
 alacritty
 evince
-gpicview
 mpv
 gimp
 inkscape

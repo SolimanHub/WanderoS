@@ -108,6 +108,7 @@ base-devel
 cdrtools
 devtools
 dkms
+bash-completion
 efitools
 fuse2
 fuse3
@@ -213,6 +214,7 @@ polkit-gnome
 transmission-gtk
 xarchiver
 xfburn
+xfce4-whiskermenu-plugin
 
 #Entorno grafico
 sddm
@@ -252,6 +254,3 @@ python
 qt5-tools
 qt5-xmlpatterns
 solid
-
-
-bash-completion

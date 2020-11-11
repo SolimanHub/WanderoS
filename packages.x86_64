@@ -1,7 +1,7 @@
 #
 # SPDX-License-Identifier: GPL-3.0-or-later
 
-########################3
+########################
 amd-ucode
 arch-install-scripts
 b43-fwcutter
@@ -21,6 +21,7 @@ dnsmasq
 dosfstools
 edk2-shell
 efibootmgr
+espeakup
 ethtool
 exfatprogs
 f2fs-tools
@@ -42,6 +43,7 @@ lftp
 linux
 linux-atm
 linux-firmware
+livecd-sounds
 lsscsi
 lvm2
 lynx
@@ -78,6 +80,7 @@ rxvt-unicode-terminfo
 sdparm
 sg3_utils
 smartmontools
+squashfs-tools
 sudo
 syslinux
 systemd-resolvconf
@@ -85,9 +88,10 @@ tcpdump
 terminus-font
 termite-terminfo
 testdisk
+udftools
 usb_modeswitch
 usbutils
-vim
+neovim
 vpnc
 wireless-regdb
 wireless_tools
@@ -96,53 +100,158 @@ wvdial
 xfsprogs
 xl2tpd
 zsh
+
+
 ####################
-#Entorno grafico
-xorg
-sddm
-lxde
-#gpicview
+# System
+base-devel
+cdrtools
+devtools
+dkms
+efitools
+fuse2
+fuse3
+git
+gpart
+grsync
+grub
+htop
+libburn
+libisofs
+libisoburn
+linux-headers
+logrotate
+lsb-release
+p7zip
+pacman-contrib
+perl
+pkgfile
+tlp
+unace
+unrar
+unzip
+zip
 xdg-user-dirs
-
-thunar
+xz
 file-roller
-thunar-volman
 
-#deepin
-
-#red
-networkmanager
-dhcpcd
-netctl
-wpa_supplicant
-dialog
-
-#control de audio
-pulseaudio
-paprefs
-pavucontrol
-audacious
-
-#para montar perifericos
+# Filesystem
 gvfs
 gvfs-afc
+gvfs-goa
+gvfs-gphoto2
 gvfs-mtp
+gvfs-nfs
+gvfs-smb
 
-#Otros
-alacritty
-evince
-mpv
-gimp
-inkscape
-gimp
-gparted
-sed
+# XORG
+mesa
+#xorg
+xorg-server
+xorg-apps
+xorg-drivers
+xorg-xkill
+xorg-xinit
+xterm
 
-base
-base-devel
-grub
-#os-probes  (ERROR)
-#ntfs-3g	(ERROR)		#detecta la particion de windows
-efibootmgr
-
+# Networking
+curl
+dnsutils
+ethtool
 firefox
+gnome-nettool
+modemmanager
+netctl
+networkmanager
+networkmanager-openvpn
+nm-connection-editor
+net-tools
+nss-mdns
+openresolv
+r8168
+wget
+whois
+
+# Desktop
+aisleriot
+epdfview
+geany
+gnome-disk-utility
+gparted
+meld
+neofetch
+papirus-icon-theme
+
+# Fonts
+ttf-dejavu
+ttf-liberation
+ttf-bitstream-vera
+ttf-ubuntu-font-family
+cantarell-fonts
+ttf-croscore
+ttf-carlito
+ttf-caladea
+noto-fonts
+opendesktop-fonts
+ttf-opensans
+freetype2
+
+# LXDE
+#lxde
+
+# Xfce
+xfce4
+xfce4-goodies
+adapta-gtk-theme
+arc-gtk-theme
+arc-icon-theme
+catfish
+galculator
+gnome-packagekit
+gtk-engine-murrine
+polkit-gnome
+transmission-gtk
+xarchiver
+xfburn
+
+#Entorno grafico
+sddm
+
+
+#calamares.dependencies
+boost
+cmake
+extra-cmake-modules
+libpwquality
+qt5ct
+qt5-location
+qt5-svg
+qt5-webengine
+yaml-cpp
+hwinfo
+plasma-framework
+qt5-translations
+
+# calamares.welcome
+upower
+
+# calamares.partition
+kcoreaddons
+kconfig
+ki18n
+kpmcore
+kservice
+kwidgetsaddons
+
+# calamares.others
+dmidecode
+doxygen
+kparts
+polkit-qt5
+python
+qt5-tools
+qt5-xmlpatterns
+solid
+
+
+bash-completion

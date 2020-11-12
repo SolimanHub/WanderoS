@@ -9,7 +9,6 @@ base
 bind-tools
 broadcom-wl
 btrfs-progs
-clonezilla
 crda
 darkhttpd
 ddrescue
@@ -101,11 +100,9 @@ xfsprogs
 xl2tpd
 zsh
 
-
 ####################
 # System
 base-devel
-cdrtools
 devtools
 dkms
 bash-completion
@@ -134,7 +131,11 @@ unzip
 zip
 xdg-user-dirs
 xz
-file-roller
+alacritty
+tree
+gparted
+meld
+neofetch
 
 # Filesystem
 gvfs
@@ -174,14 +175,12 @@ wget
 whois
 
 # Desktop
-aisleriot
-epdfview
-geany
+evince
+# geany #este es un editor de texto
 gnome-disk-utility
-gparted
-meld
-neofetch
+
 papirus-icon-theme
+gpicview
 
 # Fonts
 ttf-dejavu
@@ -218,7 +217,6 @@ xfce4-whiskermenu-plugin
 
 #Entorno grafico
 sddm
-
 
 #calamares.dependencies
 boost

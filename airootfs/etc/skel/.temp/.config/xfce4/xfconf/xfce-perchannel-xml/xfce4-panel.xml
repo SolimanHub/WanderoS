@@ -12,7 +12,7 @@
       <property name="icon-size" type="uint" value="16"/>
       <property name="size" type="uint" value="26"/>
       <property name="plugin-ids" type="array">
-        <value type="int" value="7"/>
+        <value type="int" value="1"/>
         <value type="int" value="2"/>
         <value type="int" value="3"/>
         <value type="int" value="4"/>
@@ -45,6 +45,7 @@
     </property>
   </property>
   <property name="plugins" type="empty">
+    <property name="plugin-1" type="string" value="applicationsmenu"/>
     <property name="plugin-2" type="string" value="tasklist">
       <property name="grouping" type="uint" value="1"/>
     </property>
@@ -62,6 +63,10 @@
       <property name="names-ordered" type="array">
         <value type="string" value="networkmanager applet"/>
       </property>
+    </property>
+    <property name="plugin-7" type="string" value="statusnotifier">
+      <property name="square-icons" type="bool" value="true"/>
+      <property name="symbolic-icons" type="bool" value="true"/>
     </property>
     <property name="plugin-8" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
@@ -103,6 +108,5 @@
     <property name="plugin-22" type="string" value="directorymenu">
       <property name="base-directory" type="string" value="/home/os2"/>
     </property>
-    <property name="plugin-7" type="string" value="whiskermenu"/>
   </property>
 </channel>

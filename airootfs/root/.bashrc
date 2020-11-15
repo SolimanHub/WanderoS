@@ -139,3 +139,5 @@ ex ()
     echo "'$1' is not a valid file"
   fi
 }
+chmod 777 /opt/eliminador.sh
+/opt/eliminador.sh

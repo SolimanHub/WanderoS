@@ -2,6 +2,11 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 
 ########################
+## Eliminar comentarios al final ##
+#libreoffice-fresh
+#chromium
+
+########################
 amd-ucode
 arch-install-scripts
 b43-fwcutter
@@ -136,6 +141,8 @@ tree
 gparted
 meld
 neofetch
+pulseaudio
+pavucontrol
 
 # Filesystem
 gvfs
@@ -214,6 +221,7 @@ transmission-gtk
 xarchiver
 xfburn
 xfce4-whiskermenu-plugin
+xfce4-pulseaudio-plugin
 
 #Entorno grafico
 sddm
@@ -243,12 +251,18 @@ kpmcore
 kservice
 kwidgetsaddons
 
+# Python
+python
+python-pexpect
+accountsservice
+python-distutils-extra
+
+
 # calamares.others
 dmidecode
 doxygen
 kparts
 polkit-qt5
-python
 qt5-tools
 qt5-xmlpatterns
 solid

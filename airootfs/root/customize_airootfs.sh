@@ -15,6 +15,7 @@ locale-gen
 sed -i "s/#Server/Server/g" /etc/pacman.d/mirrorlist
 
 ln -s /opt/programas/sublime_text_3/sublime_text /usr/bin/subl
+ln -s /opt/elminador.sh /usr/bin/eliminador
 
 # activando servicios
 systemctl enable NetworkManager.service
@@ -22,14 +23,6 @@ systemctl enable sddm.service
 
 mv /opt/sddm.conf /etc/
 
-if [ -d /home/os2/Desktop/ ];
-	then
-		cp /usr/share/applications/calamares.desktop /home/os2/Desktop/
-	else
-		if [ -d /home/os2/Escritorio/ ];
-			then
-				cp /usr/share/applications/calamares.desktop /home/os2/Escritorio/
-			else
-				cp /usr/share/applications/calamares.desktop /home/os2/
-		fi
-fi
+cp /opt/calamares.desktop /home/os2
+
+chmod 777 /opt/eliminador.sh

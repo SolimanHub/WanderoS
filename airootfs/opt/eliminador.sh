@@ -18,7 +18,6 @@ else
  rm -r /usr/share/polkit-1/actions/com.github.calamares.calamares.policy
  rm -r /usr/share/locale
  rm /usr/bin/eliminador
- rm /opt/calamares.desktop
  rm /opt/eliminador.sh
  rm /var/log/Calamares.log
  clear

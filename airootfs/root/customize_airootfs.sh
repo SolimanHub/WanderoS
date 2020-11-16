@@ -6,6 +6,7 @@ set -e -u
 
 #Creacion de carpetas en el Home/os2 y lanzador para instalar calamares
 xdg-user-dirs-update
+#LC_ALL=C xdg-user-dirs-update --force
 
 # Warning: customize_airootfs.sh is deprecated! Support for it will be removed in a future archiso version.
 
@@ -20,9 +21,10 @@ ln -s /opt/elminador.sh /usr/bin/eliminador
 # activando servicios
 systemctl enable NetworkManager.service
 systemctl enable sddm.service
+systemctl enable cronie.service
+
 
 mv /opt/sddm.conf /etc/
 
-cp /opt/calamares.desktop /home/os2
-
 chmod 777 /opt/eliminador.sh
+chmod 777 /home/os2/.config/move.sh

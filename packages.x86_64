@@ -168,7 +168,6 @@ curl
 dnsutils
 ethtool
 firefox
-gnome-nettool
 modemmanager
 netctl
 networkmanager
@@ -177,14 +176,13 @@ nm-connection-editor
 net-tools
 nss-mdns
 openresolv
-r8168
 wget
 whois
+cronie
 
 # Desktop
 evince
 # geany #este es un editor de texto
-gnome-disk-utility
 
 papirus-icon-theme
 gpicview

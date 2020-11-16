@@ -3,7 +3,6 @@
 #
 
 [[ $- != *i* ]] && return
-setxkbmap es
 
 colors() {
 	local fgc bgc vals seq0

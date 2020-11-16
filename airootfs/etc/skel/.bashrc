@@ -159,4 +159,3 @@ alias reboot='systemctl reboot'
 alias suspend='xfce4-session-logout --suspend'
 alias virtual='sudo virtualbox &'
 alias l='ls -sh'
-setxkbmap es

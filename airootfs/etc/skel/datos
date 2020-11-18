@@ -1,0 +1,6 @@
+
+# Algunos datos de interes
+
+# conectarse a wifi
+
+sudo nmcli dev wifi connect SSID password contraseña

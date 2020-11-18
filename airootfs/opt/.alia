@@ -1,0 +1,23 @@
+#### Alias 
+alias apagar='systemctl poweroff'
+alias reboot='systemctl reboot'
+alias suspend='xfce4-session-logout --suspend'
+alias virtual='sudo virtualbox &'
+alias more=less
+alias lbry=lbry_fun
+alias bashrc=bashrc_fun
+alias ins='sudo pacman -S $@'
+alias v='nvim'
+alias c="cp -ir"
+alias r='rm -r' 
+alias l='ls -sh'
+
+lbry_fun ()
+{
+ffmpeg -i $1 -c:v libx264 -crf 21 -preset faster -pix_fmt yuv420p -maxrate 5000K -bufsize 5000K -vf 'scale=if(gte(iw\,ih)\,min(1920\,iw)\,-2):if(lt(iw\,ih)\,min(1920\,ih)\,-2)' -movflags +faststart -c:a aac -b:a 160k $2.mp4
+}
+
+bashrc_fun(){
+cd $HOME
+nvim .bashrc && source .bashrc
+}

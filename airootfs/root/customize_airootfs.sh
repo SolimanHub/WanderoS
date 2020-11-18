@@ -23,6 +23,8 @@ systemctl enable NetworkManager.service
 systemctl enable sddm.service
 systemctl enable cronie.service
 
+pacman -Rns parole
+
 
 mv /opt/sddm.conf /etc/
 

@@ -1,7 +1,7 @@
-#
+# 
 # ~/.bashrc
 #
-
+. /opt/.alia
 [[ $- != *i* ]] && return
 
 colors() {
@@ -95,20 +95,9 @@ alias df='df -h'                          # human-readable sizes
 alias v='nvim'
 alias free='free -m'                      # show sizes in MB
 alias np='nano -w PKGBUILD'
-alias more=less
-alias lbry=lbryConvert
-alias bashrc=bashrc_fun
-alias ins='sudo pacman -S $@'
 
-bashrc_fun(){
-cd $HOME
-nvim .bashrc && source .bashrc
-}
 
-lbryConvert ()
-{
-ffmpeg -i $1 -c:v libx264 -crf 21 -preset faster -pix_fmt yuv420p -maxrate 5000K -bufsize 5000K -vf 'scale=if(gte(iw\,ih)\,min(1920\,iw)\,-2):if(lt(iw\,ih)\,min(1920\,ih)\,-2)' -movflags +faststart -c:a aac -b:a 160k $2.mp4
-}
+
 
 
 xhost +local:root > /dev/null 2>&1
@@ -153,9 +142,3 @@ ex ()
   fi
 }
 
-#### Alias 
-alias apagar='systemctl poweroff'
-alias reboot='systemctl reboot'
-alias suspend='xfce4-session-logout --suspend'
-alias virtual='sudo virtualbox &'
-alias l='ls -sh'

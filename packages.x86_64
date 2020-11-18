@@ -3,8 +3,21 @@
 
 ########################
 ## Eliminar comentarios al final ##
-#libreoffice-fresh
-#chromium
+libreoffice-fresh
+chromium
+bluez
+bluez-utils
+blueman
+kdenlive
+audacious
+vokoscreen
+mpv
+
+########################
+# Paqutes para desarrollo
+
+archiso
+freecad
 
 ########################
 amd-ucode
@@ -136,7 +149,8 @@ unzip
 zip
 xdg-user-dirs
 xz
-alacritty
+#alacritty
+tilix
 tree
 gparted
 meld
@@ -170,7 +184,9 @@ ethtool
 firefox
 modemmanager
 netctl
+gnome-keyring
 networkmanager
+network-manager-applet
 networkmanager-openvpn
 nm-connection-editor
 net-tools

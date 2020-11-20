@@ -16,6 +16,7 @@ locale-gen
 sed -i "s/#Server/Server/g" /etc/pacman.d/mirrorlist
 
 ln -s /opt/programas/sublime_text_3/sublime_text /usr/bin/subl
+ln -s /opt/programas/arduino-nightly/arduino /usr/bin/arduino
 ln -s /opt/elminador.sh /usr/bin/eliminador
 
 # activando servicios

@@ -20,15 +20,13 @@
         <value type="int" value="3"/>
         <value type="int" value="4"/>
         <value type="int" value="5"/>
+        <value type="int" value="11"/>
+        <value type="int" value="12"/>
         <value type="int" value="6"/>
-        <value type="int" value="15"/>
         <value type="int" value="8"/>
         <value type="int" value="9"/>
         <value type="int" value="10"/>
-        <value type="int" value="11"/>
-        <value type="int" value="12"/>
         <value type="int" value="13"/>
-        <value type="int" value="14"/>
         <value type="int" value="19"/>
       </property>
     </property>
@@ -51,6 +49,7 @@
       <property name="show-frame" type="bool" value="false"/>
       <property name="square-icons" type="bool" value="true"/>
       <property name="names-ordered" type="array">
+        <value type="string" value="networkmanager applet"/>
         <value type="string" value="blueman-tray"/>
       </property>
     </property>
@@ -67,9 +66,7 @@
     <property name="plugin-13" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
-    <property name="plugin-14" type="string" value="actions"/>
     <property name="plugin-7" type="string" value="whiskermenu"/>
-    <property name="plugin-15" type="string" value="wavelan"/>
     <property name="plugin-16" type="string" value="separator"/>
     <property name="plugin-17" type="string" value="launcher">
       <property name="items" type="array">

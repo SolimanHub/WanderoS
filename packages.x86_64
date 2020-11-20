@@ -18,6 +18,17 @@ mpv
 
 archiso
 freecad
+netbeans
+python-pip
+atom
+code
+gcc
+nodejs
+npm
+geany #este es un editor de texto
+apache
+php
+php-apache
 
 ########################
 amd-ucode
@@ -198,7 +209,6 @@ cronie
 
 # Desktop
 evince
-# geany #este es un editor de texto
 
 papirus-icon-theme
 gpicview

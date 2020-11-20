@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Arduino IDE
+GenericName=Text Editor
+Exec=arduino
+Terminal=false
+MimeType=text/plain;
+Icon=/opt/programas/arduino-nightly/icons/arduino.png
+Categories=TextEditor;Development;
+StartupNotify=true
+Actions=Window;Document;

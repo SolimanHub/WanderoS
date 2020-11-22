@@ -25,7 +25,7 @@ Presentation
 
     Timer {
         id: advanceTimer
-        interval: 30000
+        interval: 5000
         running: true
         repeat: true
         onTriggered: presentation.goToNextSlide()
@@ -38,7 +38,7 @@ Presentation
 
         Image {
             id: background1
-            source: "slide1.png"
+	    source: "1.png"
             width: parent.width; height: parent.height          
             horizontalAlignment: Image.AlignCenter
     		verticalAlignment: Image.AlignTop
@@ -49,53 +49,26 @@ Presentation
                 anchors.centerIn: parent
                 anchors.verticalCenterOffset: 165
                 anchors.horizontalCenterOffset: 0
-                font.pixelSize: parent.width *.016
-                color: 'white'
-                text: qsTr("<b>Bienvenido a WanderOS, una distribución basada en ArchLinux<br/>")
+                font.pixelSize: parent.width *.020
+                color: 'black'
+                text: qsTr("<b><br/>")
                 wrapMode: Text.WordWrap
                 width: parent.width / 1.4
                 horizontalAlignment: Text.AlignHCenter
             }
         }
     }
-
     Slide {
         anchors.fill: parent
         anchors.verticalCenterOffset: 0
+
 
         Image {
             id: background2
-            source: "slide1.png"
+        source: "1.png"
             width: parent.width; height: parent.height          
             horizontalAlignment: Image.AlignCenter
-    		verticalAlignment: Image.AlignTop
-
-            anchors.fill: parent
-
-            Text {
-                anchors.centerIn: parent
-                anchors.verticalCenterOffset: 163
-                anchors.horizontalCenterOffset: 0
-                font.pixelSize: parent.width *.016
-                color: 'white'
-                text: qsTr("<b>Pensada y desarrollada para los programadores que no deseen perder tiempo en la configuración de su sistema.<br/>")
-                wrapMode: Text.WordWrap
-                width: parent.width / 1.4
-                horizontalAlignment: Text.AlignHCenter
-            }
-        }
-    }
-
-	Slide {
-        anchors.fill: parent
-        anchors.verticalCenterOffset: 0
-
-        Image {
-            id: background3
-            source: "slide1.png"
-            width: parent.width; height: parent.height          
-            horizontalAlignment: Image.AlignCenter
-    		verticalAlignment: Image.AlignTop
+            verticalAlignment: Image.AlignTop
 
             anchors.fill: parent
 
@@ -103,42 +76,98 @@ Presentation
                 anchors.centerIn: parent
                 anchors.verticalCenterOffset: 165
                 anchors.horizontalCenterOffset: 0
-                font.pixelSize: parent.width *.016
-                color: 'white'
-                text: qsTr("<b>WanderOS cuenta con un amplio abanico de programas orientados al desarrollo.<br/>")
+                font.pixelSize: parent.width *.020
+                color: 'black'
+                text: qsTr("<b><br/>")
                 wrapMode: Text.WordWrap
                 width: parent.width / 1.4
                 horizontalAlignment: Text.AlignHCenter
             }
         }
     }
-
     Slide {
         anchors.fill: parent
         anchors.verticalCenterOffset: 0
 
+
         Image {
-            id: background4
-            source: "slide1.png"
-            width: parent.width; height: parent.height
+            id: background3
+        source: "2.png"
+            width: parent.width; height: parent.height          
             horizontalAlignment: Image.AlignCenter
-    		verticalAlignment: Image.AlignTop
-    		
+            verticalAlignment: Image.AlignTop
+
             anchors.fill: parent
 
             Text {
                 anchors.centerIn: parent
                 anchors.verticalCenterOffset: 165
                 anchors.horizontalCenterOffset: 0
-                font.pixelSize: parent.width *.016
-                color: 'white'
-                text: qsTr("<b>Esperamos que esta distribución sea de su agrado<br/>")
+                font.pixelSize: parent.width *.020
+                color: 'black'
+                text: qsTr("<b><br/>")
                 wrapMode: Text.WordWrap
                 width: parent.width / 1.4
                 horizontalAlignment: Text.AlignHCenter
             }
         }
     }
+    Slide {
+        anchors.fill: parent
+        anchors.verticalCenterOffset: 0
+
+
+        Image {
+            id: background4
+        source: "3.png"
+            width: parent.width; height: parent.height          
+            horizontalAlignment: Image.AlignCenter
+            verticalAlignment: Image.AlignTop
+
+            anchors.fill: parent
+
+            Text {
+                anchors.centerIn: parent
+                anchors.verticalCenterOffset: 165
+                anchors.horizontalCenterOffset: 0
+                font.pixelSize: parent.width *.020
+                color: 'black'
+                text: qsTr("<b><br/>")
+                wrapMode: Text.WordWrap
+                width: parent.width / 1.4
+                horizontalAlignment: Text.AlignHCenter
+            }
+        }
+    }
+    Slide {
+        anchors.fill: parent
+        anchors.verticalCenterOffset: 0
+
+
+        Image {
+            id: background5
+        source: "4.png"
+            width: parent.width; height: parent.height          
+            horizontalAlignment: Image.AlignCenter
+            verticalAlignment: Image.AlignTop
+
+            anchors.fill: parent
+
+            Text {
+                anchors.centerIn: parent
+                anchors.verticalCenterOffset: 165
+                anchors.horizontalCenterOffset: 0
+                font.pixelSize: parent.width *.020
+                color: 'black'
+                text: qsTr("<b><br/>")
+                wrapMode: Text.WordWrap
+                width: parent.width / 1.4
+                horizontalAlignment: Text.AlignHCenter
+            }
+        }
+    }
+
+
 
     Component.onCompleted: advanceTimer.running = true
 }

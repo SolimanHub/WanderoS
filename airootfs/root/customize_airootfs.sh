@@ -24,10 +24,11 @@ systemctl enable NetworkManager.service
 systemctl enable sddm.service
 systemctl enable cronie.service
 
-pacman -Rns parole
-
+pacman -Rns --noconfirm parole
 
 mv /opt/sddm.conf /etc/
+rm /etc/httpd/conf/httpd.conf
+mv /opt/httpd.conf /etc/httpd/conf/
 
 chmod 777 /opt/eliminador.sh
 chmod 777 /home/os2/.config/move.sh

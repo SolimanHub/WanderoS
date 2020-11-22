@@ -25,10 +25,10 @@ code
 gcc
 nodejs
 npm
-geany #este es un editor de texto
 apache
 php
 php-apache
+mariadb
 
 ########################
 amd-ucode
@@ -209,7 +209,8 @@ cronie
 
 # Desktop
 evince
-
+inkscape
+gimp
 papirus-icon-theme
 gpicview
 

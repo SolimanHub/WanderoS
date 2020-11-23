@@ -23,6 +23,8 @@ ln -s /opt/elminador.sh /usr/bin/eliminador
 systemctl enable NetworkManager.service
 systemctl enable sddm.service
 systemctl enable cronie.service
+systemctl enable ntpd.service
+systemctl enable bluetooth
 
 pacman -Rns --noconfirm parole
 

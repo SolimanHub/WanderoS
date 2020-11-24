@@ -168,6 +168,7 @@ gparted
 meld
 neofetch
 pulseaudio
+pulseaudio-bluetooth
 pavucontrol
 
 # Filesystem

@@ -15,6 +15,12 @@ XFCE4 personalizado
 ## Inicio de session
 sddm personalizado
 
+## Usuario y contraseña
+* Usuario: os2
+* Contraseña: 123
+
+* Contraseña root: 123
+
 ## Consideración
 WanderOS esta enfocado al desarrollo y cuenta con las herramientas necesarias para 
 dicho objetivo, pero WanderOS puede ser utilizada por cualquier persona, no 

@@ -3,6 +3,7 @@
 
 ########################
 ## Eliminar comentarios al final ##
+
 libreoffice-fresh
 chromium
 bluez
@@ -85,7 +86,6 @@ mkinitcpio
 mkinitcpio-archiso
 mkinitcpio-nfs-utils
 mtools
-nano
 nbd
 ndisc6
 nfs-utils
